@@ -8,12 +8,13 @@
         Title="Login" Height="450" Width="800">
     <Grid>
 
-        <TextBlock Height="23" HorizontalAlignment="Left" Margin="224,122,0,0"  Name="textBlock1" Text="Email" VerticalAlignment="Top" Width="68" />
-        <TextBlock Height="23" HorizontalAlignment="Left" Margin="216,170,0,0" Name="textBlock2" Text="Password" VerticalAlignment="Top" Width="78" />
-        <TextBox Height="23" HorizontalAlignment="Center" Margin="0,117,0,0"  Name="textBoxEmail" VerticalAlignment="Top" Width="248" />
-        <TextBox Height="23" HorizontalAlignment="Center" Margin="0,170,0,0" x:Name="passwordBox" VerticalAlignment="Top" Width="248" />
-        <TextBlock Height="23" HorizontalAlignment="Left" x:Name ="errormessage" VerticalAlignment="Top" Width="248" Margin="295,262,0,0"  OpacityMask="Crimson" Foreground="#FFE5572C"  />
-        <Button Content="Login" Height="23" HorizontalAlignment="Left" Margin="332,217,0,0" Name="button1" VerticalAlignment="Top" Width="104" Click="button1_Click" />
+        <TextBlock Height="24" HorizontalAlignment="Left" Margin="214,180,0,0"  Name="textBlock1" Text="Email" VerticalAlignment="Top" Width="68" />
+        <TextBlock Height="24" HorizontalAlignment="Left" Margin="206,228,0,0" Name="textBlock2" Text="Password" VerticalAlignment="Top" Width="78" />
+        <TextBox Height="22" HorizontalAlignment="Left" Margin="266,176,0,0"  Name="textBoxEmail" VerticalAlignment="Top" Width="248" />
+        <TextBox Height="24" HorizontalAlignment="Left" Margin="266,228,0,0" x:Name="passwordBox" VerticalAlignment="Top" Width="248" />
+        <TextBlock Height="24" HorizontalAlignment="Left" x:Name ="errormessage" VerticalAlignment="Top" Width="248" Margin="300,322,0,0"  OpacityMask="Crimson" Foreground="#FFE5572C"  />
+        <Button Content="Login" Height="22" HorizontalAlignment="Left" Margin="322,276,0,0" Name="button1" VerticalAlignment="Top" Width="104" Click="button1_Click" />
+        <Image HorizontalAlignment="Left" Height="100" Margin="255,55,0,0" VerticalAlignment="Top" Width="263" Source="/logo.PNG"/>
 
     </Grid>
 </Window>

@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="logo.PNG" />
     <None Remove="UI.jpg" />
   </ItemGroup>
 
@@ -16,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="logo.PNG" />
     <Resource Include="UI.jpg" />
   </ItemGroup>
 
