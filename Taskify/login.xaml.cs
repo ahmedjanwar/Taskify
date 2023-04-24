@@ -18,6 +18,9 @@ namespace Taskify
 	/// <summary>
 	/// Interaction logic for Window1.xaml
 	/// </summary>
+	///     /// Authors Ahmed And Yossef
+	/// Jobs: UI and Add Function Handled By youssef 
+	///       Rest of function adn Database creation Handled by Ahmed
 	public partial class Window1 : Window
 	{
 		

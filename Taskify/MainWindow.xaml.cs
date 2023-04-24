@@ -21,6 +21,9 @@ namespace Taskify
 	/// <summary>
 	/// Interaction logic for MainWindow.xaml
 	/// </summary>
+    /// Authors Ahmed And Yossef
+    /// Jobs: UI and Add Function Handled By youssef 
+    ///       Rest of function adn Database creation Handled by Ahmed
 	public partial class MainWindow : Window
 	{
         string connectionString = "server=mariadb.vamk.fi;user=e2001332;database=e2001332_Taskify;port=3306;password=hutCGmFRgZ9";
@@ -37,7 +40,7 @@ namespace Taskify
             List<string> GetNamesFromDatabase()
             {
                 List<string> data = new List<string>();
-                //List<data> items = new List<data>();
+                
                 try
                 {
                     using (MySqlConnection conn = new MySqlConnection(connectionString))
@@ -147,7 +150,7 @@ namespace Taskify
             mainGrid0.Children.Clear();
 
             // Remove the Grid itself from its parent container
-            //nameGrid.Children.Remove(mainGrid0);
+            
 
             List<string> GetNamesFromDatabase()
             {
@@ -287,6 +290,7 @@ namespace Taskify
         }
         private void Button_Click_3(object sender, RoutedEventArgs e)
 		{
+            // will be handles by Yossef
             add addDataWindow = new add();
             addDataWindow.ShowDialog();
 
@@ -458,10 +462,9 @@ namespace Taskify
                             {
                                 string name = "No: " + reader.GetString(0) + "\n" + "Title: " + reader.GetString(1) + "\n" + "" + reader.GetString(2);
                                 data.Add(name);
-                                // for (int y = 0; y <= myid.Length; y++)
-                                // {
+                                
                                 myid[y] = reader.GetString(0);
-                                //}
+                               
                                 y++;
                             }
                             reader.Close();
@@ -659,7 +662,7 @@ namespace Taskify
                         {
                             while (r.Read())
                             {
-                                //string fname = r.GetString(1);
+                                
 
                                 // Create a new ListViewItem object
                                 ListViewItem item = new ListViewItem();

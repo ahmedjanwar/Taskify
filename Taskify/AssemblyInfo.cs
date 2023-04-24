@@ -1,5 +1,7 @@
 using System.Windows;
-
+/// Authors Ahmed And Yossef
+/// Jobs: UI and Add Function Handled By youssef 
+///       Rest of function adn Database creation Handled by Ahmed
 [assembly: ThemeInfo(
 	ResourceDictionaryLocation.None, //where theme specific resource dictionaries are located
 									 //(used if a resource is not found in the page,

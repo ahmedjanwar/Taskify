@@ -21,10 +21,13 @@ using System.Windows.Controls;
 
 namespace Taskify
 {
-	/// <summary>
-	/// Interaction logic for Edit.xaml
-	/// </summary>
-	public partial class Edit : Window
+    /// <summary>
+    /// Interaction logic for Edit.xaml
+    /// </summary>
+    ///     /// Authors Ahmed And Yossef
+    /// Jobs: UI and Add Function Handled By youssef 
+    ///       Rest of function adn Database creation Handled by Ahmed
+    public partial class Edit : Window
 	{
         string connectionString = "server=mariadb.vamk.fi;user=e2001332;database=e2001332_Taskify;port=3306;password=hutCGmFRgZ9";
         string taskIdString;
