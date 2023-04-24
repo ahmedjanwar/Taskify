@@ -1,0 +1,27 @@
+﻿<Window x:Class="Taskify.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Taskify"
+        mc:Ignorable="d"
+        Title="Taskify" Height="594" Width="825">
+    <Grid Margin="0,0,0,5">
+        <Button x:Name="urgent" Content="Urget"  HorizontalAlignment="Left" Margin="139,67,0,0" VerticalAlignment="Top" Click="Button_Click" Width="77"/>
+        <Button x:Name="todo" Content="Todo" HorizontalAlignment="Left" Margin="257,67,0,0" VerticalAlignment="Top" Click="Button_Click1" Width="77"/>
+        <Button x:Name="wish" Content="Wishlist" HorizontalAlignment="Left" Margin="386,67,0,0" VerticalAlignment="Top" Click="Button_Click2" Width="77"/>
+        <Button x:Name="shop" Content="Shoping" HorizontalAlignment="Left" Margin="509,67,0,0" VerticalAlignment="Top" Click="Button_Click3" Width="77"/>
+        <Button x:Name="addbtn" Content="ADD" HorizontalAlignment="Left" Margin="24,59,0,0" VerticalAlignment="Top" Height="25" Width="38" Background="{x:Null}" Click="Button_Click_3"/>
+        <TextBox HorizontalAlignment="Left" Margin="217,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="369" Height="23"/>
+        <Button x:Name="logoutbtn" Content="Log out" HorizontalAlignment="Left" Margin="728,42,0,0" VerticalAlignment="Top" Height="30" Width="62" Click="Button_Click_1"/>
+        <Grid x:Name="mainGrid0" Margin="24,111,10,20">
+            <!-- your other controls here -->
+
+        </Grid>
+        <Button x:Name="refreshbtn" Content="Refresh" HorizontalAlignment="Left" Margin="24,31,0,0" VerticalAlignment="Top" Width="89" Click="refreshbtn_Click"/>
+        <Button Content="Delete" HorizontalAlignment="Left" Margin="67,59,0,0" VerticalAlignment="Top" Width="53" Click="Button_Click_4" Height="25"/>
+        <Button Content="Edit" HorizontalAlignment="Left" Margin="24,89,0,0" VerticalAlignment="Top" Width="96" Click="Button_Click_5"/>
+        <Label Content="Search" HorizontalAlignment="Left" Margin="171,28,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.601,0.495"/>
+
+    </Grid>
+</Window>

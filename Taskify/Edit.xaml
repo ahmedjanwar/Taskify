@@ -1,0 +1,25 @@
+﻿<Window x:Class="Taskify.Edit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Taskify"
+        mc:Ignorable="d"
+        Title="Edit" Height="336" Width="632">
+    <Grid>
+        <Label Content="Task Title " HorizontalAlignment="Left" Margin="160,78,0,0" VerticalAlignment="Top"/>
+        <Label Content="Discription" HorizontalAlignment="Left" Margin="160,109,0,0" VerticalAlignment="Top"/>
+        <Label Content="Category" HorizontalAlignment="Left" Margin="160,151,0,0" VerticalAlignment="Top"/>
+        <ComboBox HorizontalAlignment="Left" Margin="222,160,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0" Name="category">
+            <ListViewItem Content="Urgent"/>
+            <ListViewItem Content="Todo"/>
+            <ListViewItem Content="Wishlist"/>
+            <ListViewItem Content="Shoping"/>
+        </ComboBox>
+        <Button Content="Edit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="287" Margin="199,194,0,0" Click="Button_Click"/>
+        <TextBox x:Name="titlebox" HorizontalAlignment="Left" Margin="218,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="235"/>
+        <TextBox x:Name="discriptionbox" HorizontalAlignment="Left" Margin="232,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221"/>
+
+
+    </Grid>
+</Window>
